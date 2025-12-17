@@ -28,9 +28,8 @@ jobs:
     - name: "Build Successful"
       run: echo "docker image build successfully!!"
 
-    -name: "Login with docker credentials"
-    run: echo "dckr_pat_Rw1VjxMe9VXoOnK-t6FVDifNISY" | docker login -u ketan1309 --password-stdin 
+    - name: "Login with docker credentials"
+      run: echo "dckr_pat_Rw1VjxMe9VXoOnK-t6FVDifNISY" | docker login -u ketan1309 --password-stdin 
 
-
-    -name: "Login Successful"
-    run: echo "Dockerlogin Successful!!!" 
+    - name: "Login Successful"
+      run: echo "Dockerlogin Successful!!!" 
