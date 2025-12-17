@@ -35,7 +35,7 @@ jobs:
     - name: "Run Build Command"
       run: echo "npm run build->Building App"
 
-    - name: "Build successful"
-      run: echo "Build succedded"
+    - name: "Build Successful"
+      run: echo "Build Succedded"
     
 
