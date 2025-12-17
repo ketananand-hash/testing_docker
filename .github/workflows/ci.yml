@@ -39,7 +39,7 @@ jobs:
       run: echo "Build Succedded"
     
 
-test:
+  test:
 
     runs-on: ubuntu-latest
 
